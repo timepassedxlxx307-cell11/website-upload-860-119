@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索筛选 - 日韩在线视频大全</title>
+  <meta name="description" content="日韩在线视频大全搜索筛选页面，按片名、地区、类型、年份与标签查找影片。">
+  <meta name="keywords" content="搜索筛选,日韩视频,在线观看,日韩电影,韩国电视剧,日本动漫,免费视频,高清在线">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="搜索筛选 - 日韩在线视频大全">
+  <meta property="og:description" content="日韩在线视频大全搜索筛选页面，按片名、地区、类型、年份与标签查找影片。">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-logo" href="./index.html" aria-label="日韩在线视频">
+      <span class="logo-mark">日</span>
+      <span class="logo-text">日韩在线视频</span>
+    </a>
+    <nav class="main-nav">
+      <a class="nav-link" href="./index.html">首页</a><a class="nav-link" href="./categories.html">分类</a><a class="nav-link" href="./ranking.html">排行榜</a><a class="nav-link" href="./latest.html">最新上线</a><a class="nav-link active" href="./search.html">搜索</a>
+    </nav>
+    <button class="mobile-toggle" type="button" data-menu-toggle aria-label="展开导航">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-panel" data-mobile-panel>
+    <a class="mobile-link" href="./index.html">首页</a><a class="mobile-link" href="./categories.html">分类</a><a class="mobile-link" href="./ranking.html">排行榜</a><a class="mobile-link" href="./latest.html">最新上线</a><a class="mobile-link active" href="./search.html">搜索</a>
+  </nav>
+</header>
+<main class="page-main">
+  <section class="page-hero small search-hero">
+    <div class="page-hero-content">
+      <div class="hero-kicker">Search</div>
+      <h1>搜索筛选</h1>
+      <p>按片名、地区、年份、类型、题材与标签快速定位想看的内容。</p>
+      <div class="search-panel">
+        <input id="search-input" type="search" placeholder="输入片名、地区、年份、标签" aria-label="输入片名、地区、年份、标签">
+        <select id="search-type" aria-label="选择类型">
+          <option value="">全部类型</option>
+          <option value="电影">电影</option>
+          <option value="剧集">剧集</option>
+          <option value="综艺">综艺</option>
+          <option value="动漫">动漫</option>
+        </select>
+        <select id="search-category" aria-label="选择分类">
+          <option value="">全部分类</option>
+          <option value="爱情剧情">爱情剧情</option><option value="悬疑犯罪">悬疑犯罪</option><option value="喜剧治愈">喜剧治愈</option><option value="动作冒险">动作冒险</option><option value="科幻奇幻">科幻奇幻</option><option value="动画家庭">动画家庭</option><option value="惊悚恐怖">惊悚恐怖</option><option value="音乐运动">音乐运动</option><option value="纪实历史">纪实历史</option><option value="综艺生活">综艺生活</option>
+        </select>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div id="search-result" class="movie-grid large-grid"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">日韩在线视频</div>
+      <p>日韩在线视频大全，提供最新日韩电影、热门剧集、精彩综艺节目免费在线观看。尽享丰富的影视类型，感受视觉与心灵的双重享受！</p>
+    </div>
+    <div>
+      <h3>快速导航</h3>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./latest.html">最新上线</a>
+    </div>
+    <div>
+      <h3>精选分类</h3>
+      <a href="./collection-premium.html">日韩精选</a><a href="./collection-theater.html">热播剧场</a><a href="./collection-cinema.html">电影放映厅</a><a href="./collection-weekend.html">周末片单</a><a href="./collection-night.html">深夜剧场</a>
+    </div>
+    <div>
+      <h3>类型入口</h3>
+      <a href="./genre-romance-drama.html">爱情剧情</a><a href="./genre-suspense-crime.html">悬疑犯罪</a><a href="./genre-comedy-healing.html">喜剧治愈</a><a href="./genre-action-adventure.html">动作冒险</a><a href="./genre-sci-fi-fantasy.html">科幻奇幻</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 日韩在线视频大全 - 尽享丰富的影视类型，感受视觉与心灵的双重享受</div>
+</footer>
+<script src="./assets/site.js"></script>
+<script src="./assets/movies-index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
